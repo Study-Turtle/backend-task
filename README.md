@@ -1,6 +1,6 @@
 # Backend - Task
 
-<img src="gambar/frontend-vs-backend.png" alt="frontend and backend illustration>
+<img src="gambar/frontend-vs-backend.png" alt="frontend and backend illustration">
 <p>Ilustrasi Perbedaan Frontend dan Backend</p>
 
 # Kontribusi
