@@ -1,0 +1,20 @@
+1. Kondisional itu berguna kalau program dihadapkan pada 
+   2 atau lebih kondisi. Lalu, setiap kondisi punya tindakan berbeda 
+   untuk program lakukan. Sebagai contoh: Jika kondisinya adalah A,
+   maka tindakan yang dilakukan adalah 1. Dan jika bukan A, maka 
+   tindakannya adalah 2.
+
+2. if: Bisa dipakai walau kondisinya hanya 1.
+   else: Akan terpakai jika kondisi pada "if" salah.
+   elif: Dipakai sesudah "if" dan sebelum "else". "elif" akan
+         terpakai jika kondisi pada "if" salah.
+    
+3. a. Lihat lampiran "flowchart.png".
+   b.   - Saya membuat program.
+        - Ketemu "bug"
+        - Melakukan perbaikan.
+            - Bisa? Lanjutkan ke poin selanjutnya.
+            - Tidak bisa? Ambil istirahat dulu.
+                - Kembali "Melakukan perbaikan".
+        - Program berfungsi dan selesai.
+   
