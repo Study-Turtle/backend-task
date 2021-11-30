@@ -1,0 +1,27 @@
+1. Perulangan adalah melakukan suatu aksi yang sama berkali-kali
+    hingga sebuah kondisi tercapai. Contohnya saya mengerjakan
+    latihan ini. Saya akan terus mengerjakan latihan ini hingga
+    selesai. Jika baru 1 soal latihan, tambah ke soal selanjutnya.
+    Itu terus-menerus dilakukan hingga tak ada soal lagi yang
+    perlu dikerjakan.
+
+2. for loop: Perulangan "for" dilakukan jika diketahui jumlah 
+             pengulangan. Contohnya, jika ada 3 soal latihan 
+             yang perlu diselesaikan, maka saya butuh 3 kali
+             pengulangan. Maksudnya 1 soal itu sama dengan 1 kali
+             pengulangan.
+   while loop: Sedangkan "while", ini dilakukan jika tidak diketahui
+               jumlah pengulangannya. Contohnya, saya tidak tau
+               berapa jumlah latihan pada backend tapi saya terus
+               mengerjakannya tiap latihan baru muncul. Dan, saya 
+               akan berhenti ketika tak ada latihan baru muncul atau
+               ada info tak ada latihan lagi.
+               
+3. a. Lihat lampiran "flowchart".
+   b. Ada 10 soal:
+        - Kerjakan 1 soal.
+        - Sudah dikerjakan 10 soal?
+            - Belum? Kembali "Kerjakan 1 soal".
+            - Sudah? Lanjut ke langkah selanjutnya.
+        - Selesai.            
+    
