@@ -1,0 +1,73 @@
+1.  Fungsional memanfaatkan bentuk fungsi dan data yang tidak berubah.
+    Sebagai contoh:
+        sum(2, 3, 5) adalah 2 + 3 + 5 = 10
+
+    yang mana:
+        sum(n, sum(ns)) 
+
+    dari:
+        sum(n) ==> n
+
+    berarti:
+        sum(n + sum(ns))
+
+        sum(2 + sum(3, 5))
+
+        sum(2 + 3 + sum(5))
+
+        sum(2 + 3 + 5)
+
+2.  Menurut saya, manfaat fungsional baru terasa jika 
+    dibutuhkan hasil yang tetap sama pada situasi yang berbeda.
+    Contohnya fungsi pergi_sekolah() & pulang_sekolah() sebelumnya.
+    Mau seperti apapun fungsi main, hasil dari pergi_sekolah() &
+    pulang_sekolah tetap sama.
+
+    Atau, seperti contoh saya.
+
+    Fungsional berguna untuk mempersingkat kode lewat rekursi.
+    Lihat fungsi sum di atas. Di dalam fungsi sum, digunakan
+    fungsi sum yang sama.
+
+3.  a.              ---------
+                    | Mulai |
+                    ---------
+                        |
+                        |
+                   --------------
+                   | Berangkat? |
+                   --------------
+                        |
+                        |
+                   ---------------
+                   | Jam berapa? |
+                   ---------------
+                        |
+                        |
+             --------------------------         ----------------------
+             | Fungsi waktu_berangkat | <------ | waktu_berangkat(): |
+             --------------------------         |     return 8       |
+                        |                       ----------------------
+                        |
+                  -----------------
+                  | Waktu Pulang? |
+                  -----------------
+                        |
+                        |
+             -------------------------         -------------------
+             | Fungsi waktu_pulang() | <------ | waktu_pulang(): |
+             -------------------------         |    return 16    |
+                        |                      -------------------
+                        |
+                    ------------
+                    | Berakhir |
+                    ------------
+
+    b.  - Pagi datang, saatnya berangkat dari rumah.
+        - Berangkat jam berapa? waktu_berangkat()
+        - Berangkatlah dan sampai tujuan.
+        - Waktu pulang akan datang.
+          Pulang jam berapa? waktu_pulang()
+        - Pulang dan sampai di rumah kembali.
+        
+                                 
