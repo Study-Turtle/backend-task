@@ -10,7 +10,7 @@ Menurut saya perulangan dalam pemrograman adalah mengulang kode hingga suatu kon
 Perulangan ini memakai iterator dan angka/object/array/list/dictionary
 
 2. while
-Perulangan ini memakai kondisi untuk mengulang kode hingga kondisinya terpenuhi
+Perulangan ini memakai kondisi untuk mengulang kode hingga kondisinya tidak terpenuhi
 
 ## Buatlah studi kasus mengenai perulangan yang berhubungan dengan kehidupan sehari-hari kamu
 
